@@ -4,13 +4,13 @@
 
 
 	if ($(this).width() < 500) {
-	    $('.navbar')[$(window).scrollTop() >= 700 ? 'addClass' : 'removeClass']('bg-light');
-            $('.nav-text')[$(window).scrollTop() >= 700  ? 'addClass' : 'removeClass']('black-text');
-	    $('.nav-text')[$(window).scrollTop() >= 700  ? 'removeClass' : 'addClass']('white-text');
+	    $('.navbar')[$(window).scrollTop() >= 0 ? 'addClass' : 'removeClass']('bg-light');
+            $('.nav-text')[$(window).scrollTop() >= 0  ? 'addClass' : 'removeClass']('black-text');
+	    $('.nav-text')[$(window).scrollTop() >= 0  ? 'removeClass' : 'addClass']('white-text');
 	} else {
-	    $('.navbar')[$(window).scrollTop() >= 1080 ? 'addClass' : 'removeClass']('bg-light');
-            $('.nav-text')[$(window).scrollTop() >= 1080 ? 'addClass' : 'removeClass']('black-text');
-	    $('.nav-text')[$(window).scrollTop() >= 1080 ? 'removeClass' : 'addClass']('white-text');
+	    $('.navbar')[$(window).scrollTop() >= 0 ? 'addClass' : 'removeClass']('bg-light');
+            $('.nav-text')[$(window).scrollTop() >= 0 ? 'addClass' : 'removeClass']('black-text');
+	    $('.nav-text')[$(window).scrollTop() >= 0 ? 'removeClass' : 'addClass']('white-text');
 	}
 
 	
@@ -20,9 +20,9 @@
 
     $(document).ready(function(){
 	$(".navbar-menubutton").click(function(){
-	    $('.navbar')[$(window).scrollTop() >= 700 ? 'addClass' : 'toggleClass']('bg-light');
-	    $('.nav-text')[$(window).scrollTop() >= 700 ? '' : 'toggleClass']('white-text');
-	    $('.nav-text')[$(window).scrollTop() >= 700 ? 'addClass' : 'toggleClass']('black-text');
+	    $('.navbar')[$(window).scrollTop() >= 0 ? 'addClass' : 'toggleClass']('bg-light');
+	    $('.nav-text')[$(window).scrollTop() >= 0 ? '' : 'toggleClass']('white-text');
+	    $('.nav-text')[$(window).scrollTop() >= 0 ? 'addClass' : 'toggleClass']('black-text');
 	});
 
 	$(".personal-button").click(function(){
