@@ -5,6 +5,12 @@
 	    var element = document.querySelector("#team-tag");
 	    element.scrollIntoView({ behavior: 'smooth'});
 	});
+	
+	$(".project-button").click(function(){
+	    var element = document.querySelector("#project-tag");
+	    element.scrollIntoView({ behavior: 'smooth'});
+	});
+
 
 	0
 	$(".sprint1-button").click(function(){
