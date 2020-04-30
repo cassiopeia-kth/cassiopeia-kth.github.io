@@ -157,7 +157,7 @@
     		 <div class="col-xs-12 col-md-1">   
   			 </div> <!-- Don't remove this empty col, it is a hack for the width-->
   			<div class="col-md-3">
-    			<ul class="text-wwd1 fntr" style="list-style:none inside">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
     				<li>— Grid System (1)</li>
     				<li>— Background Sprites (2)</li>
     				<li>— Player Movement (3)</li>
@@ -167,7 +167,7 @@
   			</div>
 
   			<div class="col-md-3">
-    			<ul class="text-wwd1 fntr" style="list-style:none inside">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
     				<li>— Animations (2)</li>
     				<li>— Main Menu (2)</li>
     				<li>— Trap Types (2)</li>
@@ -177,7 +177,7 @@
   			</div>
 
   			<div class="col-md-3">
-    			<ul class="text-wwd1 fntr" style="list-style:none inside">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
     				<li>— Online Lobby (6)</li>
     				<li>— Trap Inventory (3)</li>
     				<li>— Menu Sound Effects (3)</li>
@@ -222,14 +222,37 @@
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 
 
-    <br/><br/>
+    <br/><br/> 
 
     <div class="container">
       <div class="row">
 	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+		<i class="text-wwd1 fntb">Sprint Planning, April 27th:</i>
+		<p class="text-wwd1 fntr">
+			For our second sprint planning meeting, we made it our goal to finish implementing and polishing all essential game mechanics including sound effects, as well as having a solid amount of animations and also starting to implement server side in-game functionality.
+		</p>
+		<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+			<li>— Player flashing animation (1)</li>
+			<li>— Trap order (2)</li>
+			<li>— Rounds (2)</li>
+			<li>— Server implementing spawn (4)</li>
+			<li>— Implementing sounds to assets (2)</li>
+			<li>— Character select (4)</li>
+		</ul>
+		<br>
+		<i class="text-wwd1 fntb">The Sprint, April 27th - May 5th:</i>
+
 	  <p class="text-wwd1 fntr">
-	    Text for sprint 2
+	    During this sprint we made some final decisions regarding which direction to take in regards to our server setup and character selection screen. So far we have been using an exploratory approach concerning the development of features, in which we start working on two different alternatives and then decide which one to keep. The reasoning behind this being our lack of experience and using this also as an opportunity to learn as much as we can. However, we did find it difficult to actually make the final decisions and spent quite some time discussing and voting together.
+		<br><br>
+		Because of moving to a more server centered implementation, many of the scripts that were previously used in the local implementation were rendered useless. Due to this, we were not able to meet the sprint goal of completely finishing the game mechanics. 
+		<br><br>
+		Other goals such as player movement and sound interaction were implemented successfully in the local version of the game. We have to wait and see whether the code for these can easily be ported to the server code. 
 	  </p>
+	  <video controls width="900" style="display:block; margin:auto; margin-top:5em;">
+	  	<source src="assets/demo_video.mp4" type="">
+	  </video>
+	  <i class="text-wwd1 fntr">A little demonstration of buff pick-up, trap pick-up & placement.</i>
 	</div>
       </div>
     </div>
