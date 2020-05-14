@@ -1,0 +1,5 @@
+ .bishop {
+ 	display: inline-block;
+ 	box-sizing: border-box;
+ 	content: url('cassiopeia-kth.github.io/assets/right.png');
+ }
