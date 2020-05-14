@@ -16,36 +16,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/gif" href="assets/ico.png" />
     <title>Cassiopeia KTH</title>
+
+    <link rel="stylesheet" type="text/css" href="css/anim.css"> <!-- for the animation --> 
   </head>
 
-  <body> <!--style="background: #ebeae7;"-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+  <body style="background:#2c3a47; color:white;"> <!--style="background: #ebeae7;"-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" style="background:#121e29 !important; color:white !important;">
       <button class="navbar-toggler" style="outline: none; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-menubutton" onclick=""><img src="assets/menu.png" alt="" width="50px"/></span>
 
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	<h2 style="margin-left: 20px; margin-top: 10px; font-family: 'Press Start 2P', cursive; font-size: 250%;">Dókano</h2>
+	<h2 style="margin-left: 20px; margin-top: 10px; font-family: 'Press Start 2P', cursive; font-size: 250%;">Dókano&ensp;<div class="bishop" src=""></div></h2>
 	<ul class="navbar-nav mr-auto" style="position: fixed; right: 3%;">
 	  <li class="nav-item">
-	    <a href="javascript:void(null);" class="black-text game-button fnt nav-link nav-text" style=" margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">The&ensp;Game<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text game-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">The&ensp;Game<span class="sr-only nav-text">(current)</span></a>
 	  </li>
 
 	  <li class="nav-item">
-	    <a href="javascript:void(null);" class="black-text team-button fnt nav-link nav-text" style=" margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Team<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text team-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Team<span class="sr-only nav-text">(current)</span></a>
 	  </li>
 	  <li class="nav-item">
-	    <a href="javascript:void(null);" class="black-text project-button fnt nav-link nav-text" style="margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Project&ensp;Idea<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text project-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Project&ensp;Idea<span class="sr-only nav-text">(current)</span></a>
 	  </li>
 	  <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle black-text fnt nav-text" href="#" style="font-size: 100%; font-family: 'Press Start 2P'; margin-right: 90%;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle black-text fnt nav-text" href="#" style="color:white !important; font-size: 100%; font-family: 'Press Start 2P'; margin-right: 90%;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	      Sprints
             </a>
-	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	    <a href="javascript:void(null);" class="black-text sprint1-button fnt nav-link nav-text" style="font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;1<span class="sr-only nav-text">(current)</span></a>
-	    <a href="javascript:void(null);" class="black-text sprint2-button fnt nav-link nav-text" style="font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;2<span class="sr-only nav-text">(current)</span></a>
-	    <a href="javascript:void(null);" class="black-text sprint3-button fnt nav-link nav-text" style="font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;3<span class="sr-only nav-text">(current)</span></a>
-	    <a href="javascript:void(null);" class="black-text sprint4-button fnt nav-link nav-text" style="font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;4<span class="sr-only nav-text">(current)</span></a>
+	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background:#121e29;">
+	    <a href="javascript:void(null);" class="black-text sprint1-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;1<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint2-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;2<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint3-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;3<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint4-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;4<span class="sr-only nav-text">(current)</span></a>
 	  </div>
 	  </li>
 	</ul>
@@ -53,12 +55,11 @@
     </nav>
 
 
-
 <!--------------Game Section----------------->
     
 <br id="game-tag"/><br/><br/><br/>
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Game  <img alt="" src="assets/team.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Game&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hermes.png" width="50"/></h2>
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 
@@ -72,7 +73,7 @@
 
     <br id="team-tag"/><br/><br/><br/>
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Team  <img alt="" src="assets/team.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Team&ensp;<div class="knight" src=""/></div></h2>
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 
@@ -135,7 +136,7 @@
 
     <br id="project-tag"/><br/><br/><br/>
 
-		    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Project Idea  <img alt="" src="assets/idea.png" width="50"/></h2>
+		    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Project&ensp;Idea&ensp;<div class="monster" src=""/></div></h2>
 		    <hr style="margin-left: 30%; margin-right: 30%;"/>
 
 
@@ -157,7 +158,7 @@
     <br/><br/><br/><br/>
     <br id="sprint1-tag"/><br/><br/><br/>
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint 1  <img alt="" src="assets/sprint.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;1&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/zeus.png" width="50"/></h2>
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 
@@ -234,7 +235,7 @@
     <br/><br/><br/><br/>
     <br id="sprint2-tag"/><br/><br/><br/>
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint 2  <img alt="" src="assets/sprint.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;2&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/fire.png" width="50"/></h2>
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 
@@ -279,7 +280,7 @@
     <br/><br/><br/><br/>
     <br id="sprint3-tag"/><br/><br/><br/>
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint 3  <img alt="" src="assets/sprint.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;3&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/poseidon.png" width="50"/></h2>
 
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
@@ -348,7 +349,7 @@
     <br id="sprint4-tag"/><br/><br/><br/>
 
 
-    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint 4  <img alt="" src="assets/sprint.png" width="50"/></h2>
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;4&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hades.png" width="50"/></h2>
 
     <hr style="margin-left: 30%; margin-right: 30%;"/>
 

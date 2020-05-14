@@ -1,0 +1,89 @@
+
+
+@keyframes flight{
+	0% {
+		content: url('../assets/right.png');
+		margin-left:0px;
+	}
+
+	50% {
+		margin-left:890px;
+	}
+	
+	100% {
+		margin-left:0px;
+		content: url('../assets/left.png');
+	}
+}
+
+
+.bishop {	
+	animation-name: flight;
+	animation-duration: 10s;
+	margin-bottom: 0.2em;
+	display: inline-block;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes idleKnight {
+	0% {
+		content: url('../assets/knight/right1.png');
+	}
+
+	25%{
+		content: url('../assets/knight/right2.png');
+	}
+
+	50% {
+		content: url('../assets/knight/right3.png');
+	}
+
+	100% {
+		content: url('../assets/knight/right4.png');
+	}
+
+}
+
+.knight {
+	display: inline-block;
+	margin-bottom: 0.2em;
+	width: 50px;
+
+	animation-name: idleKnight;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes idleMonster {
+	0% {
+		content: url('../assets/monster/glow_monster1.png');
+	}
+
+	25%{
+		content: url('../assets/monster/glow_monster2.png');
+	}
+
+	50% {
+		content: url('../assets/monster/glow_monster3.png');
+	}
+
+	100% {
+		content: url('../assets/monster/glow_monster4.png');
+	}
+
+}
+
+.monster {
+	display: inline-block;
+	/*margin-bottom: 0.1em;*/
+	width: 50px;
+
+	animation-name: idleMonster;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
