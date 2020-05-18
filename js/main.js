@@ -11,6 +11,10 @@
 	    element.scrollIntoView({ behavior: 'smooth'});
 	});
 
+	$(".game-button").click(function(){
+	    var element = document.querySelector("#game-tag");
+	    element.scrollIntoView({ behavior: 'smooth'});
+	});
 
 	0
 	$(".sprint1-button").click(function(){

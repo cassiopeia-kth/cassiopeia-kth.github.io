@@ -19,7 +19,7 @@
 
 .bishop {	
 	animation-name: flight;
-	animation-duration: 10s;
+	animation-duration: 15s;
 	margin-bottom: 0.2em;
 	display: inline-block;
 	animation-iteration-count: infinite;
