@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/anim.css"> <!-- for the animation --> 
   </head>
 
-  <body style="background:#2c3a47; color:white;"> <!--style="background: #ebeae7;"-->
+  <body style="background:#2c3a47; color:white;" style="outline:0 !important;"> <!--style="background: #ebeae7;"-->
     <nav class="navbar navbar-expand-lg fixed-top bg-light" style="background:#121e29 !important; color:white !important;">
       <button class="navbar-toggler" style="outline: none; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-menubutton" onclick=""><img src="assets/menu.png" alt="" width="50px"/></span>
@@ -61,7 +61,7 @@
 
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Game&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hermes.png" width="50"/></h2>
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/>
@@ -75,7 +75,7 @@
 
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Team&ensp;<div class="knight" src=""/></div></h2>
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/>
@@ -137,7 +137,7 @@
     <br id="project-tag"/><br/><br/><br/>
 
 		    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Project&ensp;Idea&ensp;<div class="monster" src=""/></div></h2>
-		    <hr style="margin-left: 30%; margin-right: 30%;"/>
+		    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
 		    <br/><br/>
@@ -160,7 +160,7 @@
 
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;1&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/zeus.png" width="50"/></h2>
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/>
@@ -223,8 +223,13 @@
 	  		</ul>
 
 	<p class="text-wwd1 fntr">We also started looking into both server functionality through trying to implement an online lobby system as well as the overall game logic to start connecting all of our building blocks and giving them meaning. Lastly, we tried to make sure our git workflow is top notch by among other things establishing a work protocol through the use of branches in git and scenes within Unity.</p>
-	<img src="assets/clubhouse.png" width="900" style="display:block; margin:auto; margin-top:5em;">
-	<i class="text-wwd1 fntr">Overview of the storyboard using clubhouse.io</i>
+	
+
+	<div style="width:55vw; box-sizing: border-box; margin:auto;">
+		<img src="assets/clubhouse.png" style="width: inherit; margin-top:5em;">
+  		<i class="text-wwd1 fntr" style="margin:0; padding-left:0;">Overview of the storyboard using clubhouse.io</i>
+	</div>
+
 
 	</div>
       </div>
@@ -237,7 +242,7 @@
 
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;2&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/fire.png" width="50"/></h2>
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/> 
@@ -267,10 +272,15 @@
 		<br><br>
 		Other goals such as player movement and sound interaction were implemented successfully in the local version of the game. We have to wait and see whether the code for these can easily be ported to the server code. 
 	  </p>
-	  <video controls width="900" style="display:block; margin:auto; margin-top:5em;">
-	  	<source src="assets/demo_video.mp4" type="">
-	  </video>
-	  <i class="text-wwd1 fntr">A little demonstration of buff pick-up, trap pick-up & placement.</i>
+
+
+
+		<div style="width:55vw; box-sizing: border-box; margin:auto;">
+		  <video controls style=" width:inherit; display:block; margin:auto; margin-top:5em;">
+		      <source src="assets/demo_video.mp4" type="">
+		  </video>
+		  <i class="text-wwd1 fntr" style="margin:0; padding-left:0;">A little demonstration of buff pick-up, trap pick-up & placement.</i>
+  		</div>
 	</div>
       </div>
     </div>
@@ -283,7 +293,7 @@
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;3&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/poseidon.png" width="50"/></h2>
 
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/>
@@ -336,10 +346,12 @@
 			While we didn’t quite achieve all of our sprint goals (for instance, we are still not ready for players to play matches with one another online) we are pleased with the progress we have made and feel that it will be possible for us to get our product into a fully functional state during the final sprint.
 		</p>
 	</div>
-  <video controls width="900" style="display:block; margin:auto; margin-top:5em;">
+  <div style="width:55vw; box-sizing: border-box; margin:auto;">
+  <video controls style=" width:inherit; display:block; margin:auto; margin-top:5em;">
       <source src="assets/demo_video2.mp4" type="">
   </video>
-  <i class="text-wwd1 fntr" style="margin-top:0;">Demonstration of the lobby and the server in action.</i>
+  <i class="text-wwd1 fntr" style="margin:0; padding-left:0;">Demonstration of the lobby and the server in action.</i>
+  </div>
       </div>
     </div>
     <!--------------Sprint 4 Section----------------->
@@ -351,7 +363,7 @@
 
     <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;4&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hades.png" width="50"/></h2>
 
-    <hr style="margin-left: 30%; margin-right: 30%;"/>
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
 
 
     <br/><br/>
@@ -359,9 +371,57 @@
     <div class="container">
       <div class="row">
 	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
-	  <p class="text-wwd1 fntr">
-	    Text for sprint 4
-	  </p>
+	  
+	  	
+	  	<i class="text-wwd1 fntb">Sprint Planning, May 12th:</i>
+		<p class="text-wwd1 fntr">
+			The goal of the sprint was trying to pick up where we left last sprint and again trying to make the game playable and have a minimum viable product. The team agreed to do this as quickly as possible in order to add the new features that we could not finish last week.
+		</p>
+
+		<div class="row">
+		    <div class="col-md-1">
+    
+  			</div>
+		  <div class="col-xs-12 col-md-5">
+	    	<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+				<li>— fix movement animation (2)</li>
+				<li>— point system (4)</li>
+				<li>— easter egg (2)</li>
+				<li>— icon for mobile (1)</li>
+				<li>— UI for mobile (4)</li>
+				<li>— rounds (4)</li>
+				<li>— victory screen (2)</li>
+			</ul>
+		  </div>
+		  <div class="col-md-5">
+		    <ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+		    	<li>— new tilemaps (2)</li>
+		    	<li>— pushing mechanic (2)</li>
+		    	<li>— back button bug (2)</li>
+		    	<li>— main menu song bug (2)</li>
+		    	<li>— scaling fix (4)</li>  
+		    	<li>— remove play again button (1)</li>
+		    	<li>— trap order (4)</li>
+		    </ul>
+		  </div>
+		    <div class="col-md-1">
+    
+  			</div>
+		</div>
+
+	  	<i class="text-wwd1 fntb">The Sprint, May 12th - May 18th:</i>
+		<p class="text-wwd1 fntr">
+		    Since we did not completely reach our previous sprint goal of having a minimum viable product, the focus for the beginning of this sprint was to complete that. We were able to do so and spent the rest of the time finishing off the game by polishing interactions between various components as well as improving the user experience in the game. <br>
+			Now that we are at the end of this project we notice that the things we work on become quite specific. We are currently spending more time tweaking existing content so that it functions as intended and fits into the vision of the game. There are aspects of Dókano which we would like to add or expand on for a higher quality game but undertaking these tasks would be a poor use of time as it is a possibility that we do not complete it and are left with the project being buggy. 
+			<br><br>
+			The current state of the game is a smooth playing experience with some bugs that could potentially affect player experience. We are working to fix them. The game is also undergoing the process of being ported to Android.
+
+		</p>
+
+		<div style="width:55vw; box-sizing: border-box; margin:auto;">
+			<img src="assets/dokano.jpg" style="width: inherit; margin-top:5em;">
+	  		<i class="text-wwd1 fntr" style="margin:0; padding-left:0;">The title screen of the finished game</i>
+		</div>
 	</div>
       </div>
     </div>
