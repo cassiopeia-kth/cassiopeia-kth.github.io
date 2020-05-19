@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!---de975c---->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta name="description" content="Understand your rights, write your preferences with data and compare it with what others do with your data. Take action!">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <!--<link href="css/packed.css" rel="stylesheet" type="text/css"/> -->
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel="stylesheet" type='text/css'/>
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="assets/ico.png" />
+    <title>Cassiopeia KTH</title>
+
+    <link rel="stylesheet" type="text/css" href="css/anim.css"> <!-- for the animation --> 
+
+  </head>
+
+  <body style="background:#2c3a47; color:white;" style="outline:0 !important;"> <!--style="background: #ebeae7;"-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" style="background:#121e29 !important; color:white !important;">
+      <button class="navbar-toggler" style="outline: none; " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-menubutton" onclick=""><img src="assets/menu.png" alt="" width="50px"/></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<h2 style="margin-left: 20px; margin-top: 10px; font-family: 'Press Start 2P', cursive; font-size: 250%;">Dókano&ensp;<div class="bishop" src=""></div></h2>
+	<ul class="navbar-nav mr-auto" style="position: fixed; right: 3%;">
+	  <li class="nav-item">
+	    <a href="javascript:void(null);" class="black-text game-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">The&ensp;Expo<span class="sr-only nav-text">(current)</span></a>
+	  </li>
+
+	  <li class="nav-item">
+	    <a href="javascript:void(null);" class="black-text team-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Team<span class="sr-only nav-text">(current)</span></a>
+	  </li>
+	  <li class="nav-item">
+	    <a href="javascript:void(null);" class="black-text project-button fnt nav-link nav-text" style="color:white !important; margin-right: 20px; font-size: 100%; font-family: 'Press Start 2P'; padding-left: 10px;">Project&ensp;Idea<span class="sr-only nav-text">(current)</span></a>
+	  </li>
+	  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle black-text fnt nav-text" href="#" style="color:white !important; font-size: 100%; font-family: 'Press Start 2P'; margin-right: 90%;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Sprints
+            </a>
+	  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background:#121e29;">
+	    <a href="javascript:void(null);" class="black-text sprint1-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;1<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint2-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;2<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint3-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;3<span class="sr-only nav-text">(current)</span></a>
+	    <a href="javascript:void(null);" class="black-text sprint4-button fnt nav-link nav-text" style="color:white !important; font-size: 70%; font-family: 'Press Start 2P'; padding-left: 10px;">Sprint&ensp;Week&ensp;4<span class="sr-only nav-text">(current)</span></a>
+	  </div>
+	  </li>
+	</ul>
+      </div>
+    </nav>
+
+
+<!--------------Game Section----------------->
+    
+<br id="game-tag"/><br/><br/><br/>
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Expo&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hermes.png" width="50"/></h2>
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+          <a href="index.html" style="text-decoration:none !important; outline:none !important;">
+            <p class="text-wwd1 fntr" style="text-align:center; font-family:'Press Start 2P';">
+              <img id="expoimage" style="margin:auto; display:block;" width="300" src="assets/expo.png">
+              Link to Expo Page
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- style for hovering expo link-->
+    <style type="text/css">
+      #expoimage:hover {
+        filter:brightness(130%);
+      }
+    </style>
+
+    <br/>
+
+
+
+<!--------------Team Section----------------->
+
+
+    <br id="team-tag"/><br/><br/><br/>
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Team&ensp;<div class="knight" src=""/></div></h2>
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+    <br/><br/>
+
+    <div class="container" >
+    	<div class="row" style="margin-bottom:2em";>
+  			<div class="col-xs-12 col-md-3" style="width:100px">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Arasp Keighobad</h5>
+    			<img src="assets/arasp.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3" style="width:100px">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Amir<br>Namazi</h5>
+	    		<img src="assets/amir.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3" style="width:100px">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Calin Capitanu</h5>
+	    		<img src="assets/calin.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3" style="width:100px">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Edward Chancellor</h5>
+	    		<img src="assets/ed.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+		</div>
+		
+		<div class="row">
+  			<div class="col-xs-12 col-md-3">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Faruk Bugra Demirel</h5>
+	    		<img src="assets/bugra.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3">
+    			<h5 class="fnt" style="text-align:center;font-family: 'Press Start 2P'; font-size:20px;">Philipe Granhäll</h5>
+	    		<img src="assets/philipe.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Manuel Rydholm</h5>
+	    		<img src="assets/manu.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+  			
+  			<div class="col-md-3">
+    			<h5 class="fnt" style="text-align:center; font-family: 'Press Start 2P'; font-size:20px;">Minn<br>Cho</h5>
+    			<img src="assets/minn.jpg" style="display:block; margin:auto; width:100px">
+  			</div>
+		</div>
+    </div>
+
+
+
+    
+
+
+    <!--------------Project Idea Section----------------->
+
+
+    <br id="project-tag"/><br/><br/><br/>
+
+		    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Project&ensp;Idea&ensp;<div class="monster" src=""/></div></h2>
+		    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+		    <br/><br/>
+
+		    <div class="container">
+		      <div class="row">
+			<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+			  <p class="text-wwd1 fntr">
+			    Dókano is a 2D multiplayer game, centered around laying traps and being the last player standing. Players move around a game board in real time, dropping a variety of invisible traps as a timer ticks down. Once the timer reaches zero, all the traps are revealed and any players unfortunate enough to be caught inside one get eliminated from the match. The last player remaining is the winner! Dókano is built using the Unity Game Engine.
+			  </p>
+			</div>
+		      </div>
+		    </div>
+
+    <!--------------Sprint 1 Section----------------->
+
+
+    <br/><br/><br/><br/>
+    <br id="sprint1-tag"/><br/><br/><br/>
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;1&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/zeus.png" width="50"/></h2>
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+    <br/><br/>
+
+    <div class="container">
+    	<i class="text-wwd1 fntb">Sprint Planning, April 20th:</i>
+
+    	<p class="text-wwd1 fntr">At our first sprint planning meeting, we decided that our goal for this sprint was to implement basic game mechanics such as the playerboard, grid system, character sprites and basic game design. The idea was to lay down a foundation so that each team member could work on individual tasks. In order to do this, we selected the following user stories as being of highest priority, and played planning poker to give them each a story points value. Story points are given in brackets.</p>
+
+
+    	<div class="row">
+    		 <div class="col-xs-12 col-md-1">   
+  			 </div> <!-- Don't remove this empty col, it is a hack for the width-->
+  			<div class="col-md-3">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+    				<li>— Grid System (1)</li>
+    				<li>— Background Sprites (2)</li>
+    				<li>— Player Movement (3)</li>
+    				<li>— Player Sprites (4)</li>
+    				<li>— Enemy Sprites (2)</li>
+    			</ul>
+  			</div>
+
+  			<div class="col-md-3">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+    				<li>— Animations (2)</li>
+    				<li>— Main Menu (2)</li>
+    				<li>— Trap Types (2)</li>
+    				<li>— Trap Activation (4)</li>
+    				<li>— Game Logic (5)</li>
+    			</ul>
+  			</div>
+
+  			<div class="col-md-3">
+    			<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+    				<li>— Online Lobby (6)</li>
+    				<li>— Trap Inventory (3)</li>
+    				<li>— Menu Sound Effects (3)</li>
+    				<li>— Menu Music (1)</li>
+    			</ul>
+  			</div>
+  			<div class=" col-md-1"></div><!-- Don't remove this empty col, it is a HACK for the width-->
+		</div> <br><br>
+
+      <div class="row">
+	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+	  <i class="text-wwd1 fntb">The Sprint, April 20th - 24th:</i>
+
+	  <p class="text-wwd1 fntr">
+	    Taking the uncertain situation of the world into account and being forced to work remotely, the start of the project was a success. We met virtually on monday morning and dived right into the goal of making a multiplayer 2D-arena game using scrum and agile methodologies. The team split into pairs and started tackling tasks from the storyboard.</p>
+
+
+	    	  <ul class="text-wwd1 fntr" style="list-style:none inside">
+	    	  Here are some of the main things we accomplished this week:<br><br>
+	  			<li>— Grid system with a cool map to go along with it</li>
+	  			<li>— Main menu with sound fx and music</li>
+	  			<li>— Several character sprites with animations</li>
+	  			<li>— Movement</li>
+	  			<li>— Different trap types including their sprites, animations and mechanics</li>
+	  		</ul>
+
+	<p class="text-wwd1 fntr">We also started looking into both server functionality through trying to implement an online lobby system as well as the overall game logic to start connecting all of our building blocks and giving them meaning. Lastly, we tried to make sure our git workflow is top notch by among other things establishing a work protocol through the use of branches in git and scenes within Unity.</p>
+	
+
+	<div style="width:55vw; box-sizing: border-box; margin:auto;">
+		<img src="assets/clubhouse.png" style="width: inherit; margin-top:5em;">
+  		<i class="text-wwd1 fntr" style="margin:0; padding-left:0;">Overview of the storyboard using clubhouse.io</i>
+	</div>
+
+
+	</div>
+      </div>
+    </div>
+    <!--------------Sprint 2 Section----------------->
+
+
+    <br/><br/><br/><br/>
+    <br id="sprint2-tag"/><br/><br/><br/>
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;2&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/fire.png" width="50"/></h2>
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+    <br/><br/> 
+
+    <div class="container">
+      <div class="row">
+	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+		<i class="text-wwd1 fntb">Sprint Planning, April 27th:</i>
+		<p class="text-wwd1 fntr">
+			For our second sprint planning meeting, we made it our goal to finish implementing and polishing all essential game mechanics including sound effects, as well as having a solid amount of animations and also starting to implement server side in-game functionality.
+		</p>
+		<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+			<li>— Player flashing animation (1)</li>
+			<li>— Trap order (2)</li>
+			<li>— Rounds (2)</li>
+			<li>— Server implementing spawn (4)</li>
+			<li>— Implementing sounds to assets (2)</li>
+			<li>— Character select (4)</li>
+		</ul>
+		<br>
+		<i class="text-wwd1 fntb">The Sprint, April 27th - May 5th:</i>
+
+	  <p class="text-wwd1 fntr">
+	    During this sprint we made some final decisions regarding which direction to take in regards to our server setup and character selection screen. So far we have been using an exploratory approach concerning the development of features, in which we start working on two different alternatives and then decide which one to keep. The reasoning behind this being our lack of experience and using this also as an opportunity to learn as much as we can. However, we did find it difficult to actually make the final decisions and spent quite some time discussing and voting together.
+		<br><br>
+		Because of moving to a more server centered implementation, many of the scripts that were previously used in the local implementation were rendered useless. Due to this, we were not able to meet the sprint goal of completely finishing the game mechanics. 
+		<br><br>
+		Other goals such as player movement and sound interaction were implemented successfully in the local version of the game. We have to wait and see whether the code for these can easily be ported to the server code. 
+	  </p>
+
+
+
+		<div style="width:55vw; box-sizing: border-box; margin:auto;">
+		  <video controls style=" width:inherit; display:block; margin:auto; margin-top:5em;">
+		      <source src="assets/demo_video.mp4" type="">
+		  </video>
+		  <i class="text-wwd1 fntr" style="margin:0; padding-left:0;">A little demonstration of buff pick-up, trap pick-up & placement.</i>
+  		</div>
+	</div>
+      </div>
+    </div>
+    <!--------------Sprint 3 Section----------------->
+
+
+    <br/><br/><br/><br/>
+    <br id="sprint3-tag"/><br/><br/><br/>
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;3&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/poseidon.png" width="50"/></h2>
+
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+    <br/><br/>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+	  
+		<i class="text-wwd1 fntb">Sprint Planning, May 5th:</i>
+		<p class="text-wwd1 fntr">
+			This week we aim to achieve more server functionality as well as a completed UI experience. Movement should be complete. MVP should be completed by the end of this sprint. 
+			MVP defined as being able to play against a player and interact as intended.
+		</p>
+
+
+
+		<div class="row">
+		    <div class="col-md-1">
+    
+  			</div>
+		  <div class="col-xs-12 col-md-5">
+	    	<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+				<li>— Trap visibility (3)</li>
+				<li>— Lobbies (8)</li>
+				<li>— Fixing bugs (4)</li>
+				<li>— Polishing movement (4)</li>
+				<li>— Server instances (4)</li>
+				<li>— Random trap spawn (4)</li>
+			</ul>
+		  </div>
+		  <div class="col-md-5">
+		    <ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+		    	<li>— Trap order (2)</li>
+		    	<li>— timer, server-side (8)</li>
+		    	<li>— Rounds (8)</li>
+		    	<li>— Character select (4)</li>
+		    	<li>— New tilemap (2)</li>
+		    	<li>— Scene cleanup (1)</li>
+		    </ul>
+		  </div>
+		    <div class="col-md-1">
+    
+  			</div>
+		</div>
+
+		<i class="text-wwd1 fntb">The Sprint, May 5th - May 11th:</i>
+		<p class="text-wwd1 fntr">
+		    During this sprint we went far down the server rabbit hole. A lot of learning and experimenting was necessary to get familiar with the intricacies of implementing everything we had on to the server side. We exchanged tutorials, tried to reverse-engineer existing implementations and gave each other tips on things we discovered along the way. We went from our honeymoon period to the valley of despair pretty quickly this week, but managed to somewhat climb out of it by the end of the week and find ourselves content with life again. 
+		    <br><br>
+			While we didn’t quite achieve all of our sprint goals (for instance, we are still not ready for players to play matches with one another online) we are pleased with the progress we have made and feel that it will be possible for us to get our product into a fully functional state during the final sprint.
+		</p>
+	</div>
+  <div style="width:55vw; box-sizing: border-box; margin:auto;">
+  <video controls style=" width:inherit; display:block; margin:auto; margin-top:5em;">
+      <source src="assets/demo_video2.mp4" type="">
+  </video>
+  <i class="text-wwd1 fntr" style="margin:0; padding-left:0;">Demonstration of the lobby and the server in action.</i>
+  </div>
+      </div>
+    </div>
+    <!--------------Sprint 4 Section----------------->
+
+
+    <br/><br/><br/><br/>
+    <br id="sprint4-tag"/><br/><br/><br/>
+
+
+    <h2 class="title-wwd fnt" style="font-size: 40px; font-family: 'Press Start 2P';">Sprint&ensp;4&ensp;<img alt="" style="margin-bottom:0.5em;" src="assets/hades.png" width="50"/></h2>
+
+    <hr style="margin-left: 30%; margin-right: 30%; background:#282922;"/>
+
+
+    <br/><br/>
+
+    <div class="container">
+      <div class="row">
+	<div class="col-12 col-lg-12 col-md-12 col-sm-12">
+	  
+	  	
+	  	<i class="text-wwd1 fntb">Sprint Planning, May 12th:</i>
+		<p class="text-wwd1 fntr">
+			The goal of the sprint was trying to pick up where we left last sprint and again trying to make the game playable and have a minimum viable product. The team agreed to do this as quickly as possible in order to add the new features that we could not finish last week.
+		</p>
+
+		<div class="row">
+		    <div class="col-md-1">
+    
+  			</div>
+		  <div class="col-xs-12 col-md-5">
+	    	<ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+				<li>— fix movement animation (2)</li>
+				<li>— point system (4)</li>
+				<li>— easter egg (2)</li>
+				<li>— icon for mobile (1)</li>
+				<li>— UI for mobile (4)</li>
+				<li>— rounds (4)</li>
+				<li>— victory screen (2)</li>
+			</ul>
+		  </div>
+		  <div class="col-md-5">
+		    <ul class="text-wwd1 fntr" style="list-style:none inside; font-size:17px;">
+		    	<li>— new tilemaps (2)</li>
+		    	<li>— pushing mechanic (2)</li>
+		    	<li>— back button bug (2)</li>
+		    	<li>— main menu song bug (2)</li>
+		    	<li>— scaling fix (4)</li>  
+		    	<li>— remove play again button (1)</li>
+		    	<li>— trap order (4)</li>
+		    </ul>
+		  </div>
+		    <div class="col-md-1">
+    
+  			</div>
+		</div>
+
+	  	<i class="text-wwd1 fntb">The Sprint, May 12th - May 18th:</i>
+		<p class="text-wwd1 fntr">
+		    Since we did not completely reach our previous sprint goal of having a minimum viable product, the focus for the beginning of this sprint was to complete that. We were able to do so and spent the rest of the time finishing off the game by polishing interactions between various components as well as improving the user experience in the game. <br>
+			Now that we are at the end of this project we notice that the things we work on become quite specific. We are currently spending more time tweaking existing content so that it functions as intended and fits into the vision of the game. There are aspects of Dókano which we would like to add or expand on for a higher quality game but undertaking these tasks would be a poor use of time as it is a possibility that we do not complete it and are left with the project being buggy. 
+			<br><br>
+			The current state of the game is a smooth playing experience with some bugs that could potentially affect player experience. We are working to fix them. The game is also undergoing the process of being ported to Android.
+
+		</p>
+
+		<div style="width:55vw; box-sizing: border-box; margin:auto;">
+			<img src="assets/dokano.jpg" style="width: inherit; margin-top:5em;">
+	  		<i class="text-wwd1 fntr" style="margin:0; padding-left:0;">The title screen of the finished game</i>
+		</div>
+	</div>
+      </div>
+    </div>
+
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+    <br/><br/><br/><br/>
+
+
+
+    <footer>©2020 Cassiopeia KTH</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
